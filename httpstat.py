@@ -96,6 +96,15 @@ def print_help():
 Usage: httpstat URL [CURL_OPTIONS]
        httpstat -h | --help
        httpstat --version
+       
+Arguments:
+  URL     url to request, could be with or without `http(s)://` prefix
+
+Options:
+  CURL_OPTIONS  any curl supported options, except for -w -D -o -S -s,
+                which are already used internally.
+  -h --help     show this screen.
+  --version     show version.
 
 Environments:
   HTTPSTAT_SHOW_BODY    By default httpstat will write response body
