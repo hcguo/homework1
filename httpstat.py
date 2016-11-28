@@ -6,6 +6,7 @@
 # https://curl.haxx.se/libcurl/c/easy_getinfo_options.html
 # http://blog.kenweiner.com/2014/11/http-request-timings-with-curl.html
 # Do more changes
+# add some comments
 from __future__ import print_function
 
 import os
